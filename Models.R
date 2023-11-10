@@ -9,3 +9,5 @@ colSums(is.na(nhanes))
 
 # select tha columns without missing variables
 nhanes <- nhanes[, colSums(is.na(nhanes)) == 0]
+
+# 10 predictors
